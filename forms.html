@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working with Forms</title>
+</head>
+<body>
+<header>
+    <h2>
+        Already Registered? <u>LOGIN</u> now
+    </h2>
+    <form action="login" method="POST">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        <input type="password" name="password" id="password" required>
+        <button type="submit" class="btn"><img src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png" align="center" width="30px" height="13px" alt="buttonpng" /> Login </button>
+    </form>
+    <!-- image to be used:
+     -->
+    <br>
+    <hr>
+</header>
+
+<br />
+<br />
+
+<main>
+    <section name="top">
+    <h3><a href="blog.codingninjas.in"> Coding Ninjas Blogs</a></h3>
+    <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" alt="i love coding">
+    </section>
+
+    <br />
+    <br />
+
+    <section>
+    <hr>
+    <h2><u>Registration</u></h2>
+
+    <form action="register" method="post">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name" id="first_name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_naem" id="last_name"  required> </td>
+            </tr>
+            <tr>
+                <td rowspan="3">Current Address:</td>
+                <td>Flat No./House No.</td>
+                <td><input type="text" name="hno" id="hno"></td>
+            </tr>
+            <tr>
+                <td>Locality</td>
+                <td><input type="text" name="locality" id="locality"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="city" id="city"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h3>Is Current Address and Permanent Address same?</h3></td>
+                <td><input type="radio" name="isAddress" id="isAddress">Yes
+                    <input type="radio" name="isAddress" id="isAddress">No
+                </td>
+                
+
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" id="email" placeholder="abc@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="password" >Password</label></td>
+                <td><input type="password" name="passowrd" id="password" required></td>
+            </tr>
+        </table>
+        <input type="submit" value="Register">
+    </form>
+    </section>
+</main>
+</body>
+</html>
